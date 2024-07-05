@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+  background-color: whitesmoke;
+  color: deepskyblue;
+}
+
+#welcomeForm {
+  display: flex;
+  gap: 10px;
+}
+
+.submit {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.input {
+  border: 1px solid orange;
+}
+
+.button {
+  border: 1px solid orangered;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: deepskyblue;
+  border-color: red;
+}
+
+h3 {
+  text-transform: uppercase;
+}

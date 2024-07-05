@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 600px;
+  height: 650px;
+  background-color: rgb(48, 47, 47);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.headerLogo {
+  width: 40px;
+  height: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.imageHero {
+  width: 100%;
+  height: 70%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.footerEngage {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background-color: rgb(94, 93, 93);
+}
+
+.upvoteButton {
+  all: unset;
+}
+
+.downvoteButton {
+  all: unset;
+}
+
+.exitButton {
+  all: unset;
+}

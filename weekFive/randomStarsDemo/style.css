@@ -1,0 +1,13 @@
+body {
+  overflow: hidden;
+  background-color: #202020;
+  min-height: 100vh;
+}
+
+div {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+}

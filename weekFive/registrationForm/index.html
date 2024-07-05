@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <form class="registrationForm">
+      <label for="inputOne">Username:</label>
+      <input
+        id="inputOne"
+        type="text"
+        placeholder="Neree oruulna uu "
+        required
+      />
+      <p class="alert"></p>
+
+      <label for="inputTwo" class="input">Password:</label>
+      <input
+        id="inputTwo"
+        type="password"
+        placeholder="Nuuts ugee oruulna uu "
+        required
+      />
+      <p class="alert"></p>
+
+      <label for="inputThree" class="input">ConfirmPassword:</label>
+      <input
+        id="inputThree"
+        type="password"
+        placeholder="Nuuts ugee davtaj oruulna uu "
+        required
+      />
+    </form>
+    <p id="alert"></p>
+
+    <button id="btn">Register</button>
+    <script src="script.js"></script>
+  </body>
+</html>

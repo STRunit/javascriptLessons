@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        display: flex;
+      }
+
+      .greenYellow {
+        background-color: deepskyblue;
+        width: 50vw;
+        height: 100vh;
+        color: greenyellow;
+      }
+
+      .deepSkyBlue {
+        background-color: greenyellow;
+        width: 50vw;
+        height: 100vh;
+        color: deepskyblue;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .score {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .instruction {
+        position: absolute;
+        top: 10px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .left {
+        border: 10px solid greenyellow;
+        color: greenyellow;
+      }
+
+      .right {
+        border: 10px solid deepskyblue;
+        color: deepskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="greenYellow container">
+      <h3 class="instruction">Press "A" for left side Player</h3>
+      <div class="score left"></div>
+    </div>
+    <div class="deepSkyBlue container">
+      <h3 class="instruction">Press "L" for right side Player</h3>
+      <div class="score right"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
